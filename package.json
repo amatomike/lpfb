@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "S",
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.15.2",
+    "client-oauth2": "^3.1.0",
+    "connect-memcached": "^0.2.0",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.14.1",
+    "firebase": "^3.4.1",
+    "fs": "0.0.1-security",
+    "grant": "^3.6.5",
+    "grant-express": "^3.6.5",
+    "https": "^1.0.0",
+    "morgan": "^1.7.0",
+    "re-base": "^2.2.0",
+    "simple-oauth2": "^1.0.0"
+  }
+}

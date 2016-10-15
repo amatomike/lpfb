@@ -1,0 +1,29 @@
+{
+  "server": {
+    "protocol": "https",
+    "host": "listingpass.web.mikeamato.org:2443",
+    "transport": "session",
+    "state": true
+  },
+  "spark": {
+    "key": "auu4dwzb2yq116q1au0i8pcsd",
+    "secret": "7wjjbim346y9gkr77iaacdura",
+    "authorize_url": "https://sparkplatform.com/oauth2",
+    "access_url": "https://sparkapi.com/v1/oauth2/grant",
+    "callback": "/sparkcallback"
+  },
+  "twitter": {
+    "key": "[CONSUMER_KEY]",
+    "secret": "[CONSUMER_SECRET]",
+    "callback": "/handle_twitter_callback"
+  },
+  "oauthbin": {
+    "request_url": "http://oauthbin.com/v1/request-token",
+    "authorize_url": "http://localhost:3000/authorize",
+    "access_url": "http://oauthbin.com/v1/access-token",
+    "oauth": 1,
+    "key": "key",
+    "secret": "secret",
+    "callback": "/handle_oauthbin_callback"
+  }
+}
